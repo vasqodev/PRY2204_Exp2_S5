@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28A529D4-B758-1465-0B0E-5D96E3AF0580" name="PRODUCTO">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-11 00:46:29 UTC</createdTime>
+<generatorID>2D67082B-33AC-1916-290D-E87ED6494BFB</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="9B46DF41-11C0-3B7D-524C-07C8D4C3151E">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-11 00:46:29 UTC</createdTime>
+<generatorID>3AFF0483-6DD8-782C-032F-6AB18AED9874</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="08069F0A-3086-3E63-C859-B853AD636A76">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-11 00:46:29 UTC</createdTime>
+<generatorID>8C38699B-418C-5873-9BC9-C714645BF4A8</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="65C9A5F3-223F-1E6F-783F-4BD30DCACF53">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-11 00:46:29 UTC</createdTime>
+<generatorID>1C95F909-D7A7-E7DA-D226-2A8E174124CE</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCURSAL_id_sucursal" id="A76A7425-4BB9-5B47-D029-C8015C423253">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-11 00:46:29 UTC</createdTime>
+<generatorID>9B0B326B-ECF2-EFD3-5544-AFAC9ED4C525</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E61EA69-CDC3-BD9D-1235-272106F16474" referredColumn="6A16016D-E474-FF24-9E96-261F7F593B5D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E06DF93A-70AE-2622-A0FE-8904C8C8DD88" name="PRODUCTO_PK">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-11 00:46:29 UTC</createdTime>
+<generatorID>8C1E013F-2E40-9D1B-C55B-F16140EA5BC9</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B46DF41-11C0-3B7D-524C-07C8D4C3151E"/>
+<colUsage columnID="A76A7425-4BB9-5B47-D029-C8015C423253"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE62A7C6-7924-42F2-F245-4EF271CF9545" name="PRODUCTO_SUCURSAL_FK">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-11 00:46:29 UTC</createdTime>
+<generatorID>06793E05-34D5-25E8-FCD2-D75B5F68A44F</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A76A7425-4BB9-5B47-D029-C8015C423253"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

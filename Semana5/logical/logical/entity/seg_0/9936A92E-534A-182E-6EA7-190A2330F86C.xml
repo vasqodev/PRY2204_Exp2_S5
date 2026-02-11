@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9936A92E-534A-182E-6EA7-190A2330F86C" name="DETALLE_VENTA">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:38:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cantidad" id="19DC4A95-925A-A9AB-8EAA-29243B7A1A5C">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:38:23 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_unitario" id="8FF0D0E5-0724-0B6E-6057-BDE5DA79E072">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:38:46 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_boleta" id="EAC6F7FF-549D-6A49-9D0C-EE665A2909E2">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:39:17 UTC</createdTime>
+<generatorID>2B9A8F04-8D90-5479-E7B5-105CD9F85BC3</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<referedAttribute>74A18D65-7C36-AE27-61AE-2C8E10CEEA61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="62DE0357-FDA6-80B4-02FF-FB0FF3BBC771">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:39:50 UTC</createdTime>
+<generatorID>18798AF6-8D63-237C-6974-239220959245</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<referedAttribute>3AFF0483-6DD8-782C-032F-6AB18AED9874</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sucursal" id="7AD38493-AE8A-938D-9813-B9F3AC1AB2D8">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:39:50 UTC</createdTime>
+<generatorID>18798AF6-8D63-237C-6974-239220959245</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<referedAttribute>9B0B326B-ECF2-EFD3-5544-AFAC9ED4C525</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43174508-19E2-A1EE-A015-26BD1FE3970D" name="DETALLE_VENTA PK">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:39:27 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAC6F7FF-549D-6A49-9D0C-EE665A2909E2</attributeRef>
+<attributeRef>62DE0357-FDA6-80B4-02FF-FB0FF3BBC771</attributeRef>
+<attributeRef>7AD38493-AE8A-938D-9813-B9F3AC1AB2D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

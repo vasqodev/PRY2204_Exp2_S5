@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE214864-1ABA-1122-560E-CBDC36293DB1" name="PROVEEDOR">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:29:30 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_proveedor" id="059555FD-5712-0184-D2EC-7CF26FE623A0">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:29:42 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="7C76FCB9-E053-3612-24B5-5D22E169C057">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:30:14 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B7B9574-FB17-C178-6F0B-EE1D3E01EEE2" name="PROVEEDOR PK">
+<createdBy>rodrigo</createdBy>
+<createdTime>2026-02-10 23:30:03 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="BBC6637D-FE3D-2789-392A-2CB8954DE012" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>059555FD-5712-0184-D2EC-7CF26FE623A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
